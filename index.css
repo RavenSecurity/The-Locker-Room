@@ -1,0 +1,23 @@
+:root {
+    --Blue: var()
+}
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    margin: 1%;
+}
+
+.left form {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 50%;
+}
