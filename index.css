@@ -1,5 +1,5 @@
 :root {
-    --Blue: var()
+    --Blue: #00249E;
 }
 
 body {
@@ -9,15 +9,75 @@ body {
 
 .left {
     width: 50%;
-    margin: 1%;
+    margin: 0.5%;
 }
 
 .left form {
-    margin: 5%;
+    padding: 14%;
     display: flex;
     flex-direction: column;
 }
 
+
+
+form h1 {
+    margin-bottom: 0rem;
+}
+
+form p {
+    margin-bottom: 2rem;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+.left #email,
+#password {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.left input {
+    margin-bottom: 1rem;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+.checkbox label {
+    margin-left: -12rem;
+}
+.sign {
+    margin-left: 3rem;
+}
+
+.left button {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: var(--Blue);
+    color: white;
+    border: none;
+}
+
+.left #signin {
+    margin-bottom: 2rem;
+}
+.left #signin a {
+    all: unset;
+}
+
 .right {
+    width: 50%;
+    background-image: url('./assets/locker.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     width: 50%;
 }
