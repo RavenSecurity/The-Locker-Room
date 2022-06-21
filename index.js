@@ -21,8 +21,8 @@
         alert(data.error)
        } else { 
         window.location = "/app.html";
-        document.cookie = "AccessToken=" + Object.values(data)[0] + "; max-age=86400; path=/;";
-        document.cookie = "RefreshToken=" + Object.values(data)[1] + "; max-age=86400; path=/;";
+        document.cookie = "AccessToken=" + Object.values(data)[0] + "; max-age=7200; path=/;";
+        document.cookie = "RefreshToken=" + Object.values(data)[1] + "; max-age=7200; path=/;";
        }
     //    data.token = true
     })
