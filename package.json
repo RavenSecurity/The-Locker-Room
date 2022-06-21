@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "source": "public/html/index.html",
-  "main": "server.mjs",
   "scripts": {
     "start": "node server/server.mjs",
     "test": "parcel",
